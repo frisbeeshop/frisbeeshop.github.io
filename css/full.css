@@ -1,0 +1,46 @@
+body {
+	margin-top: 80px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+}
+
+.full {
+  background: url() no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.finish {
+  height: 700px;
+}
+
+header .intro-text-finish .name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    color: #2C3E50;
+}
+
+header .intro-text-finish .skills {
+    font-size: 0.6em;
+    font-weight: 200;
+    color: #2C3E50;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+
+@media(min-width:768px) {
+    header .container {
+        padding: 200px 0 20px;
+    }
+
+    header .intro-text-finish .name {
+        font-size: 3em;
+    }
+
+    header .intro-text-finish .skills {
+        font-size: 1.2em;
+    }
+}
