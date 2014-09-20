@@ -13,8 +13,8 @@
 
 .header {
     margin-top: 0px;
-  background: url('img/ultimate-frisbee.jpg');
-  background-size:cover;
+    background: url('img/ultimate-frisbee.jpg');
+    background-size:cover;
     position: absolute;
     top: 0;
     left: 0;
